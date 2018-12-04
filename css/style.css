@@ -1,6 +1,5 @@
 nav {
   background-color: #1A1A1A;
-  float: center;
   margin: 0 auto;
   padding: 2%;
   position: relative;
@@ -13,20 +12,23 @@ nav {
 
 .content {
   box-sizing: border-box;
-  background-color: #ccc;
-  border: 2px solid #7B7B7B;
-  float: center;
   padding: 1%;
   margin: 0 auto;
-  width: 50%;
+  width: 87%;
+  display: inline-block;
+
+}
+
+.location {
+background-color: #ccc;
+border-bottom: 2px solid #7B7B7B;
 
 }
 
 .arrow {
-
-  margin: 0%;
-  padding-left: 80%;
-
+display: inline-block;
+width: 10%;
+padding-bottom: 5%;
 }
 
 body {
@@ -45,6 +47,10 @@ h1 {
 .container {
   background-color: #2B2B2B;
   width: 800px;
+  margin: auto;
+}
 
-
+.restaurant-list {
+  width: 400px;
+  margin: auto;
 }
