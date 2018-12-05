@@ -16,7 +16,12 @@ nav {
   margin: 0 auto;
   width: 87%;
   display: inline-block;
+}
 
+
+.content h1 {
+  font-size: 1.5em;
+  font-weight: 900;
 }
 
 .location {
@@ -24,6 +29,8 @@ background-color: #ccc;
 border-bottom: 2px solid #7B7B7B;
 
 }
+
+.location:hover { background-color: #bbb; } /* mouse over */
 
 .arrow {
 display: inline-block;
@@ -35,11 +42,6 @@ body {
   font-family: sans-serif;
   font-size: 14px;
   line-height: 1.4
-}
-
-h1 {
-  font-size: 1.5em;
-  font-weight: 900;
 }
 
 
